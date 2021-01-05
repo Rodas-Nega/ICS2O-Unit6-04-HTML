@@ -9,7 +9,7 @@ function museumEligible () {
   // user inputs the day of the week
   const age = document.getElementById('response').value
   // user inputs their age
-  if ((day == "Tuesday" || day == "Thursday") || (age > 12 && age < 21)) {
+  if ((day === 'Tuesday' || day === 'Thursday') || (age > 12 && age < 21)) {
     alert('You are eligible for student pricing.')
   } else {
     alert('You must pay regular price.')
