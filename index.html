@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Are you eligible to enter the museum?" />
+    <meta name="keywords" content="functions, conditionals" />
+    <meta name="author" content="Rodas Nega" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Museum Openings</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1 style="text-align:center;">Hello, World!</h1>
+    <h3 style="text-align:center;">Check if you're eligible to  get into the museum.</h3>
+    <form>
+      <label for="response"><strong>Enter your age:</strong></label>
+      <input type="text" id="response" size="2">
+      <br>
+      <label for="time"><strong>Enter the day:</strong></label>
+      <input type="text" id="time" size="2">
+      <br>
+      <br>
+      <button onclick="document.getElementById('response').innerHTML = museumEligible ()">Submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

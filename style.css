@@ -1,0 +1,14 @@
+body {
+  background-color: aqua;
+}
+
+form {
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 70%;
+  border-style: inset;
+  border-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+}
